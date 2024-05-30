@@ -1,0 +1,6 @@
+pycryptodome
+pycryptodomex
+tabulate
+getpass4
+pyperclip
+customtkinter
