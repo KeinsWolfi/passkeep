@@ -4,7 +4,6 @@ import os
 import sys
 import shutil
 import random
-import string
 from getpass4 import getpass 		# if getpass not found, try "from getpass4 import getpass"
 from tabulate import tabulate
 from Crypto.Cipher import AES
@@ -17,7 +16,7 @@ class InfoWindow(tk.CTkToplevel):
 	def __init__(self, title, text):
 		super().__init__()
 		self.title(title)
-		self.geometry("200x100")
+		self.geometry("250x100")
 		self.grid_columnconfigure(0, weight=1)
 		self.grid_rowconfigure((0,1), weight=1)
 		label = tk.CTkLabel(self, text=text)
